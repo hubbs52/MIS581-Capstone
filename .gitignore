@@ -169,3 +169,33 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore SAS log and temporary files
+*.log
+*.lst
+*.sas7bdat
+*.sas7bcat
+
+# Ignore unnecessary system files
+.DS_Store
+Thumbs.db
+
+# Ignore Word temporary files
+~$*.docx
+
+# Ignore Excel temporary and backup files
+~$*.xlsx
+*.bak
+
+# Ignore large dataset backups if not needed
+*.csv~
+*.xlsx~
